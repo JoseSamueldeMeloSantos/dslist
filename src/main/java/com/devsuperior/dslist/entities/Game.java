@@ -19,7 +19,11 @@ public class Game {
     private String platforms;
     private Double score;
     private String imgUrl;
+
+    //Para definir que é um texto grande quando passar para o banco de dados
+    @Column(columnDefinition = "TEXT")
     private String shortDescription;
+    @Column(columnDefinition = "TEXT")
     private String longDescription;
 
     public Game() {
