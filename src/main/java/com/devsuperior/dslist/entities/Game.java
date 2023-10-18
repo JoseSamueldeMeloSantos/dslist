@@ -12,7 +12,7 @@ public class Game {
     private long id;
     private String title;
 
-    //está customizando,pois pode problema já que year é uma palavra reservada do sql
+    //está customizando,pois pode dar problema já que year é uma palavra reservada do sql
     @Column(name = "game_year")
     private Integer year;
     private String genre;
